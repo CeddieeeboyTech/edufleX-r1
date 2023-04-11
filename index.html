@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edufleX | Learning is easy. Learning is fun. | edufleX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://files.edx.org/fonts/edx-fonts/open-sans/open-sans.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> 
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="f1-logo.png"></a>
+            <div class="category-links" id="categoryLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="https://ceddieeeboytech.github.io/EduFLEX-teachmelikeimfive/">SEARCH</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onlick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+        <h1>EDUFLEX</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis augue rutrum,<br> egestas justo sit amet, elementum purus. Aliquam porta viverra felis. Nunc congue, sapien.
+        </p>
+        <a class="btn" href="https://ceddieeeboytech.github.io/EduFLEX-teachmelikeimfive/">Have Fun Learning!</a>
+</div>
+
+    </section>
+
+    
+<section class="course">
+    <h1>EDUFLEX Background</h1>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Mission</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Etiam semper ex id eleifend venenatis. Suspendisse fringilla porta
+             est, sed interdum mi dignissim sed. Integer scelerisque.</p>
+        </div>
+        <div class="course-col">
+            <h3>Vision</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Etiam semper ex id eleifend venenatis. Suspendisse fringilla porta
+             est, sed interdum mi dignissim sed. Integer scelerisque.</p>
+        </div>
+        <div class="course-col">
+            <h3>Long-term Plan</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Etiam semper ex id eleifend venenatis. Suspendisse fringilla porta
+             est, sed interdum mi dignissim sed. Integer scelerisque.</p>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>Contact Us</h4>
+    <p>You can contact us in any of these.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+</section>
+
+
+<script>
+    var categoryLinks = document.getElementById ("categoryLinks");
+
+    function showMenu () {
+        categoryLinks.style.right = "0";
+    }
+
+    function hideMenu () {
+        categoryLinks.style.right = "-200px";
+    }   
+</script>
+</body>
+</html>
